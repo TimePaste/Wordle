@@ -1,4 +1,12 @@
+Using the following line as the example
 ^(?=[^osebuld]+\b)(?=.*a.*)(?=.*i.*)([^a]r[^i][a-z][a-z])$
+The first section (?=[^osebuld]+\b) for characters not in the word.
+Add to the second section (?=.*a.*) for yellow letters.
+Modify the third section ([^a]r[^i][a-z][a-z]) to reflect the structure of the word, indicating where certain letters are NOT placed.
+
+
+
+Here are more examples.
 ^(?=[^cansut]+\b)(?=.*r.*)(?=.*e.*)(?=.*h.*)(?=.*o.*)([a-z][^rh][^o][a-z][^e])$
 ^(?=[^crnshout]+\b)(?=.*a.*)([a-z][a-z][^a][a-z]e)$
 ^(?=[^cranehoulky]+\b)(?=.*s.*)(mi[a-z][a-z]t)$
