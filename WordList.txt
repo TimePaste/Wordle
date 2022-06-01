@@ -1,3 +1,4 @@
+https://static.nytimes.com/newsgraphics/2022/01/25/wordle-solver/assets/solutions.txt
 aback
 abase
 abate
